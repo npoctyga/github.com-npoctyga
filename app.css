@@ -1,0 +1,41 @@
+body {
+    padding: 40px;
+    background-color: #EDF7FA;
+}
+
+.heading {
+    color: #21243D;
+    font-family: Heebo, sans-serif;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+
+.cards {
+    gap: 20px;
+}
+
+.card {
+    gap: 25px;
+    width: 418px;
+    height: 295px;
+    border-radius: 4px;
+    background: #FFF;
+    box-shadow: 0 4px 10px 0 rgba(187, 225, 250, 0.25);
+}
+
+.card > img {
+    height: 150px;
+    object-fit: cover;
+}
+
+.card > h4 {
+    font-family: Heebo, sans-serif;
+    color: #21243D;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
